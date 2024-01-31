@@ -1,0 +1,12 @@
+.outer-container-maindashboard{
+display: flex;
+align-items: start;
+border: 1px solid red;
+width: 100%;
+}
+.sidebar{
+    width: 20%;
+}
+.dashboard{
+    width: 70%;  
+}

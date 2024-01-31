@@ -1,0 +1,198 @@
+.parent-container{
+    background-color:#F2F2F2 ;
+    height: 100vh;
+    width:100% ;
+display: flex;
+justify-content: center;
+/* justify-items: center; */
+align-items: center;
+
+}
+.inner-container{
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    width: 80%;
+    /* border: 1px solid red; */
+    height: fit-content;
+    border-radius: 0.8rem;
+}
+.heading{
+    /* display: i0.5nline-block; */
+    font-weight: 400;
+    font-size: 100px;
+    font-family: 'Jomhuria', serif;
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* font-family: ; */
+}
+.auth{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+   padding: 0.3rem 5rem 0.3rem 5rem;
+   background-color: #ffffff; 
+    border: 0;
+    
+}
+.sign-btn{
+    border-radius: 0.7rem;
+    background-color: #ffffff; /* Set your background color */
+    box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+}
+.sign-btn:hover{
+    background-color: #A9BCFF;
+}
+.login-btn:hover{
+    border-radius: 0.7rem;
+    box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+
+    background-color: #A9BCFF;
+
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 30px;
+}
+.label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 30%;
+    /* border:1px solid green; */
+    text-align: end;
+}
+.input{
+    border: 0;
+    background-color:#F4F4F4;
+    width: 40%;
+    padding-top:9px;
+    padding-bottom: 9px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius:  0.5rem;
+    /* border:1px solid green */
+}
+.form-conatiner{
+    width: 80%;
+    /* margin: auto; */
+    /* border: 1px solid red; */
+    display: flex ;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3rem auto 2rem auto;
+    
+}
+.input-conainer{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.subit-btn{
+  color: #474444;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color:  #A9BCFF;
+  padding: 0.5rem 9rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.signbtn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 480px) {
+    /* body {
+      font-size: 14px;
+    } */
+    .inner-container{
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+        background-color: white;
+        width: 90%;
+        /* border: 1px solid red; */
+        height: fit-content;
+        border-radius: 0.8rem;
+    }
+    .auth{
+        border-radius: 0.7rem;
+
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+       padding: 0.3rem 2rem 0.3rem 2rem;
+       background-color: #ffffff; 
+        border: 0;
+        
+    }
+    .sign-btn{
+        border-radius: 0.7rem;
+        background-color: #ffffff; /* Set your background color */
+        box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+    }
+    .sign-btn:hover{
+        background-color: #A9BCFF;
+    }
+    .login-btn:hover{
+        border-radius: 0.7rem;
+        box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+    
+        background-color: #A9BCFF;
+    
+    }
+    .btn-container{
+        /* width: 100%; */
+        /* display: flex;/ */
+        /* justify-content: center; */
+        /* align-items: center; */
+    gap: 10px;
+    }
+    .subit-btn{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0.5rem 5rem;
+        border-radius: 0.5rem;
+      }
+      .input-conainer{
+        display: flex ;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        gap: 0.5rem;
+    }
+      .label{
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        text-align: start;
+        /* border:1px solid green; */
+    }
+    .input{
+        width: 100%;
+        padding-top:9px;
+        padding-bottom: 9px;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius:  0.5rem;
+        /* border:1px solid green */
+    }
+    .form-conatiner{
+        width: 90%;
+        
+        gap: 0.8rem;
+        margin: 2rem auto 1rem auto;
+        
+    }
+  }
+ 
